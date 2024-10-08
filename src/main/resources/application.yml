@@ -1,0 +1,20 @@
+
+spring: {}
+server:
+  port: "8080"
+application:
+  name: "CURD operation"
+level: {}
+org: {}
+datasource:
+  password: "&Sandy#5642@"
+  driver-class-name: "com.mysql.cj.jdbc.Driver"
+  url: "jdbc:mysql://localhost:3306/school_db"
+  username: "root"
+logging: {}
+jpa:
+  show-sql: "true"
+springframework:
+  web: "DEBUG"
+hibernate:
+  ddl-auto: "update"
